@@ -390,36 +390,6 @@ var CommandsDataSet = [
 		"/<command> [player:]<name>",
 		"Survival"
 	],
-	[
-		"1",
-		"Deckhand",
-		"speed",
-		"flyspeed, eflyspeed, fspeed, efspeed, espeed, walkspeed, ewalkspeed, wspeed, ewspeed",
-		"Change your walk or fly speed.",
-		"Chat",
-		"/<command> [type] <speed> [player]",
-		"Creative"
-	],
-	[
-		"1",
-		"Lieutenant",
-		"togglepm",
-		"",
-		"Allow or prevent others from sending you a private message.",
-		"Chat",
-		"/<command>",
-		"Survival"
-	],
-	[
-		"1",
-		"Captain",
-		"enderchest",
-		"echest, eechest, eenderchest, endersee, eendersee, ec, eec",
-		"Lets you see inside an enderchest.",
-		"Chat",
-		"/<command> [player]",
-		"Survival"
-	],
 ];
 
 jQuery(document).ready(function($) {
