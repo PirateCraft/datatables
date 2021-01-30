@@ -390,6 +390,46 @@ var CommandsDataSet = [
 		"/<command> [player:]<name>",
 		"Survival"
 	],
+	[
+		"1",
+		"Deckhand",
+		"wild",
+		"",
+		"Teleports you into a random location",
+		"Chat, Wilderness",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"crate",
+		"cr",
+		"Manage your Treasure Chests keys and loot at /warp cove",
+		"Crate, Treasure",
+		"/<command> [claim] [preview]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"auc",
+		"",
+		"Opens the Pirate Auction",
+		"Auction, PirateCraft",
+		"/<command> [news|clear|collect]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"payconfirmtoggle",
+		"epayconfirmtoggle, payconfirmoff, epayconfirmoff, payconfirmon, epayconfirmon, payconfirm, epayconfirm",
+		"Toggles whether you are prompted to confirm payments.",
+		"Chat",
+		"/<command>",
+		"Survival"
+	],
 ];
 
 jQuery(document).ready(function($) {
