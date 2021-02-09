@@ -1,3 +1,4 @@
+// This data set and code is made by GodsDead, you are NOT permitted to use any of it. This is for piratemc.com only.
 var CommandsDataSet = [
 
 	[
@@ -223,6 +224,26 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"r",
+		"reply",
+		"Quickly reply to the last player to message you.",
+		"Chat",
+		"/<command> <message>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"motd",
+		"news, updates",
+		"Views the Message Of The Day, latest blog posts, changelogs & competitions",
+		"Chat",
+		"/<command> [chapter] [page]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"doors",
 		"bdm, bigdoors",
 		"Open the Big doors GUI to manage all your doors",
@@ -383,10 +404,20 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"home",
+		"ehome, homes, ehomes",
+		"Teleport to your home.",
+		"Homes, Teleport",
+		"/<command> [player:]<name>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"delhome",
 		"edelhome, remhome, eremhome, rmhome, ermhome",
 		"Removes a home.",
-		"Chat",
+		"Homes, Teleport",
 		"/<command> [player:]<name>",
 		"Survival"
 	],
@@ -416,7 +447,7 @@ var CommandsDataSet = [
 		"auc",
 		"",
 		"Opens the Pirate Auction",
-		"Auction, PirateCraft",
+		"Auction, Economy, PirateCraft",
 		"/<command> [news|clear|collect]",
 		"Survival"
 	],
@@ -426,11 +457,102 @@ var CommandsDataSet = [
 		"payconfirmtoggle",
 		"epayconfirmtoggle, payconfirmoff, epayconfirmoff, payconfirmon, epayconfirmon, payconfirm, epayconfirm",
 		"Toggles whether you are prompted to confirm payments.",
+		"Economy",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"calc",
+		"",
+		"Utility command for testing the inbuilt calculator.",
+		"Chat",
+		"/<command> <expression>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"bottle",
+		"",
+		"Put exp into Exp bottles.",
+		"Exp",
+		"/<command> [get|stats|get max]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"exp",
+		"eexp, xp",
+		"Give, set or look at a players exp.",
+		"Exp",
+		"/<command> [show|set|give] [playername [amount]]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"cannons",
+		"",
+		"List and reset all your cannons!",
+		"cannons",
+		"/<command> [reset|build|fire|adjust|list]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"bal",
+		"balance, ebal, ebalance, money, emoney",
+		"States the current balance of a player.",
+		"Economy",
+		"/<command> [player]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"book",
+		"ebook",
+		"Allows reopening and editing of sealed books.",
+		"Book",
+		"/<command> [title|author [name]]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"compass",
+		"ecompass, direction, edirection",
+		"Describes your current bearing.",
 		"Chat",
 		"/<command>",
 		"Survival"
 	],
+	[
+		"1",
+		"Deckhand",
+		"depth",
+		"eheight",
+		"States current depth",
+		"Location",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"getpos",
+		"eposition",
+		"Get your current coordinates or those of a player.",
+		"Location",
+		"/<command> [player]",
+		"Survival"
+	],
 ];
+// This data set and code is made by GodsDead, you are NOT permitted to use any of it. This is for piratemc.com only.
 
 jQuery(document).ready(function($) {
 
