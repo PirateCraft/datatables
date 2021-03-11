@@ -1,3 +1,4 @@
+// Copyright PirateCraft - piratemc.com
 // This data set and code is made by GodsDead, you are NOT permitted to use any of it. This is for piratemc.com only.
 var CommandsDataSet = [
 
@@ -548,6 +549,306 @@ var CommandsDataSet = [
 		"eposition",
 		"Get your current coordinates or those of a player.",
 		"Location",
+		"/<command> [player]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"guides",
+		"info",
+		"List all the PirateCraft guides and information",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"itemdb",
+		"eitemdb",
+		"Searches for an item.",
+		"Chat, Help",
+		"/<command> <item>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"kit",
+		"ekit,kits,ekits",
+		"Obtains the specified kit or views all available kits.",
+		"Inventory",
+		"/<command> [kit] [player]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"pay",
+		"epay",
+		"Pays another player from your balance.",
+		"Economy",
+		"/<command> <player> <amount>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"paytoggle",
+		"payon",
+		"Toggles whether you are accepting payments.",
+		"Economy",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"recipe",
+		"formula, eformula, method, emethod, erecipe, recipes, erecipes",
+		"Displays how to craft items.",
+		"Inventory",
+		"/<command> <item> [number]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"rules",
+		"",
+		"Views the server rules.",
+		"Chat",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"seen",
+		"",
+		"Shows the last logout time of a player.",
+		"Chat",
+		"/<command> <playername>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"sethome",
+		"esethome, createhome, ecreatehome",
+		"Set home to your current location.",
+		"Chat",
+		"/<command> [player:]<name>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"SellClaimBlocks",
+		"SellClaim",
+		"Converts claim blocks to server money.",
+		"Claims, Economy",
+		"/<command> <number>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"BuyClaimBlocks",
+		"BuyClaim",
+		"Converts server money to claim blocks.",
+		"Claims, Economy",
+		"/<command> <number>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"ClaimsList",
+		"claimlist, listclaims",
+		"Lists information about a player's claim blocks and claims.",
+		"Claims",
+		"/<command> <player>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"AbandonClaim",
+		"",
+		"Deletes the claim you're standing in.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"ClaimExplosions",
+		"",
+		"Toggles if explosions are allowed in the claim.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"Trust",
+		"t",
+		"Gives another player permission to edit in your claim.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"UnTrust",
+		"ut",
+		"Revokes any permissions granted to a player in your claim. / Removes permissions for all players in your claim.",
+		"Claims",
+		"/<command> [All]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"AccessTrust",
+		"at",
+		"Gives a player permission to use your buttons, levers, and beds.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"ContainerTrust",
+		"ct",
+		"Gives a player permission to use your buttons, levers, beds, crafting gear, containers, and animals.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"TrustList",
+		"",
+		"Lists the permissions for the claim you're standing in.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"SubdivideClaims",
+		"sc",
+		"Switches your shovel to subdivision mode, so you can subdivide your claims.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"RestrictSubclaim",
+		"rsc",
+		"Restricts a subclaim, so that it inherits no permissions from the parent claim.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"BasicClaims",
+		"bc",
+		"Puts your shovel back in basic claims mode.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"PermissionTrust",
+		"pt",
+		"Grants a player permission to share his permission level with others.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"AbandonAllClaims",
+		"",
+		"Deletes all of your claims.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"Trapped",
+		"",
+		"Gets a player out of a land claim he's trapped inside.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"GivePet",
+		"",
+		"Gives away a tamed animal.",
+		"Claims, Pets",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Cadet",
+		"Siege",
+		"",
+		"Besieges a player.",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"bounty",
+		"",
+		"Place, Accept and list bounties on players",
+		"bounty",
+		"/<command> [new|list|accept|abandon|place|cancel|view]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"checkrank",
+		"",
+		"Check yours or another players ranks and time left on ranks.",
+		"Ranks",
+		"/<command> [player]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"release",
+		"",
+		"Releases a piloted ship, Once released make sure your docking spot is safe and not in someone elses claim!",
+		"Ships",
 		"/<command> [player]",
 		"Survival"
 	],
