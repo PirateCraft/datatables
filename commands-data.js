@@ -858,8 +858,9 @@ var CommandsDataSet = [
 jQuery(document).ready(function($) {
 
       $('#CommandsTable').DataTable( {
-            pageLength: 50,
+            pageLength: 25,
             responsive: true,
+			order: [[ 2, "asc" ]],
             data: CommandsDataSet,
             columns: [
                   { title: "ID" },
@@ -902,8 +903,6 @@ jQuery(document).ready(function($) {
             "<'row'<'col-sm-12 col-md-5'i><'col-sm-12 col-md-7'p>>",
 
       } );
-
-
 
 
 } );
