@@ -849,7 +849,77 @@ var CommandsDataSet = [
 		"",
 		"Releases a piloted ship, Once released make sure your docking spot is safe and not in someone elses claim!",
 		"Ships",
-		"/<command> [player]",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"rotateleft",
+		"",
+		"Rotates a piloted ship left around its midpoint.",
+		"Ships",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"rotateright",
+		"",
+		"Rotates a piloted ship right around its midpoint.",
+		"Ships",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"cruise",
+		"",
+		"Will make the ship auto sail in the direction you are facing once piloted, or you can use north, east, south, west as paramters",
+		"Ships",
+		"/<command> [north|east|south|west]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"manoverboard",
+		"ob, over",
+		"If you fall off a ship, use this to teleport back onto the ship, it will put you in the top middle of the craft! You will have 30 seconds to use this!",
+		"Ships",
+		"/<command> [north|east|south|west]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"crew",
+		"",
+		"Will open a GUI to manage your crew! Has many parameters to quickly get to sections!",
+		"Crews",
+		"/<command> [help|create|leaderboard|list|rivalries|alliances|lookup|profile|roster|resetkdr]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"crew create",
+		"",
+		"Create a new crew",
+		"Crews",
+		"/<command> create [tag] [name]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"crew list",
+		"",
+		"List all crews and sort all crews",
+		"Crews",
+		"/<command> list [name|size|kdr|founded|active] [asc|desc]",
 		"Survival"
 	],
 ];
