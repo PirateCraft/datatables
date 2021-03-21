@@ -55,6 +55,16 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"stats",
+		"",
+		"Check your Stats recorded for your auto ranking or check another players!",
+		"Chat, Stats",
+		"/<command> [player] [username]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"colors",
 		"",
 		"Shows all the minecraft color codes",
@@ -909,7 +919,7 @@ var CommandsDataSet = [
 		"",
 		"Crew member commands",
 		"Crews",
-		"/<command> [kills|toggle|fee check|vitals|profile|roster|coords]",
+		"/<command> [kills|toggle|mostkilled|resign|fee check|vitals|stats|profile|roster|coords]",
 		"Survival"
 	],
 	[
@@ -1131,6 +1141,96 @@ var CommandsDataSet = [
 		"Crews",
 		"/<command> rank permissions [add|remove] [rank] [permission]",
 		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew bb",
+		"",
+		"Crew Bulletin Board, Crew leaders can also clear the BB.",
+		"Crews",
+		"/<command> bb [view|add|clear] (Message)",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"plots",
+		"",
+		"Manage your plots on the Creative server",
+		"Claims",
+		"/<command> [help|claim|auto|delete]",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"butil",
+		"bu",
+		"Builder's Utilities is a set of tools for WorldEdit shortcuts & Building tools",
+		"Utilities",
+		"/<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"blocks",
+		"secretblocks",
+		"Opens menu for 'secret' Minecraft blocks",
+		"Utilities",
+		"/<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"banner",
+		"bm",
+		"GUI Banner Creator",
+		"Utilities",
+		"/<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"noclip",
+		"nc",
+		"Toggles no-clip mode",
+		"Utilities",
+		"/<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"nv",
+		"n",
+		"Toggles Nightvision",
+		"Utilities",
+		"/<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"advfly",
+		"af",
+		"Toggles Toggles advanced fly mode",
+		"Utilities",
+		"/<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"z",
+		"",
+		"Use VoxelSniper on Creative",
+		"Utilities",
+		"/<command>",
+		"Creative"
 	],
 ];
 // This data set and code is made by GodsDead, you are NOT permitted to use any of it. This is for piratemc.com only.
