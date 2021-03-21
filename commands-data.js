@@ -188,7 +188,7 @@ var CommandsDataSet = [
 		"crewscore",
 		"",
 		"Your PirateCraft Crew score",
-		"Chat, Crew",
+		"Crews, Chat",
 		"/<command>",
 		"Survival"
 	],
@@ -198,7 +198,7 @@ var CommandsDataSet = [
 		"crewtop",
 		"",
 		"Top crew scores on PirateCraft",
-		"Chat, Crew",
+		"Crews, Chat",
 		"/<command>",
 		"Survival"
 	],
@@ -905,11 +905,151 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"crew",
+		"",
+		"Crew member commands",
+		"Crews",
+		"/<command> [kills|toggle|fee check|vitals|profile|roster|coords]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"crew",
+		"",
+		"Crew Leader commands - Manage Members",
+		"Crews",
+		"/<command> [invite|kick|trust|untrust|promote|demote] [player]",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew description",
+		"",
+		"Crew Leader - Change the Crew Description",
+		"Crews",
+		"/<command> description [description]",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew setbanner",
+		"",
+		"Crew Leader - Change the Crew banner to the one in your hand!",
+		"Crews",
+		"/<command> setbanner",
+		"Survival"
+	],
+	[
+		"1",
+		"Captain",
+		"crew modtag",
+		"",
+		"Crew Leader - Changes the Crews tag (Only Color and Case)",
+		"Crews",
+		"/<command> modtag [tag]",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew war",
+		"",
+		"Crew Leader - Starts or ends a war with another crew",
+		"Crews",
+		"/<command> war [start|end] [tag]",
+		"Survival"
+	],
+	[
+		"1",
+		"Cadet",
+		"crew",
+		"",
+		"Crew Leader - Manage Rivals and Allies",
+		"Crews",
+		"/<command> [rival|ally] [add|remove] [tag]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"c",
+		"",
+		"Talk in your Crew chat or toggle/mute your crew chat!",
+		"Crews, Chat",
+		"/<command> [message] [join|leave|mute]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"a",
+		"",
+		"Talk in your Ally Crew chat or toggle/mute your Ally crew chat!",
+		"Crews, Chat",
+		"/<command> [message] [join|leave|mute]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"crew create",
 		"",
 		"Create a new crew",
 		"Crews",
 		"/<command> create [tag] [name]",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew verify",
+		"",
+		"Crew Leader - Verifies your Crew to unlock more commands & protected from auto removal for inactivity. This costs £250",
+		"Crews",
+		"/<command> verify",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"crew disband",
+		"",
+		"Crew Leader - Delete your crew",
+		"Crews",
+		"/<command> disband",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"crew home",
+		"",
+		"Teleport to your crew home, this costs £15 to use!",
+		"Crews",
+		"/<command> home",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew home clear",
+		"",
+		"Crew Leader - Clears your Crews sethome",
+		"Crews",
+		"/<command> home clear",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew home set",
+		"",
+		"Crew Leader - Sets your crews home teleport location, costs £500",
+		"Crews",
+		"/<command> home set",
 		"Survival"
 	],
 	[
@@ -920,6 +1060,76 @@ var CommandsDataSet = [
 		"List all crews and sort all crews",
 		"Crews",
 		"/<command> list [name|size|kdr|founded|active] [asc|desc]",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew rank create",
+		"",
+		"Crew Leader - Create a rank in your Crew",
+		"Crews",
+		"/<command> rank create",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew rank setdisplayname",
+		"",
+		"Crew Leader - Sets the Display name for a Rank in your crew, it can contain colors and multiple words.",
+		"Crews",
+		"/<command> rank setdisplayname [rank] [displayname]",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew rank",
+		"",
+		"Crew Leader - Assign and unassign a player to a Crew rank",
+		"Crews",
+		"/<command> rank [assign|unassign] [player] (rank)",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew rank delete",
+		"",
+		"Crew Leader - Deletes a rank in your Crew",
+		"Crews",
+		"/<command> rank delete [rank]",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew rank list",
+		"",
+		"Crew Leader - List all ranks in a crew",
+		"Crews",
+		"/<command> rank list",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew rank permissions",
+		"",
+		"Crew Leader - Lists all permissions avalible & Lists a rank permissions",
+		"Crews",
+		"/<command> rank permissions [rank]",
+		"Survival"
+	],
+	[
+		"1",
+		"Sailor",
+		"crew rank permissions",
+		"",
+		"Crew Leader - Adds/Removes a permission to a rank in your crew",
+		"Crews",
+		"/<command> rank permissions [add|remove] [rank] [permission]",
 		"Survival"
 	],
 ];
@@ -949,7 +1159,7 @@ jQuery(document).ready(function($) {
                 "searchable": true
             },
             {
-                  "targets": [6],
+                  "targets": [6,2],
                   "title": "Syntax",
                   "render": function (data) {
                       data = data.replace(/\</g,"&lt;").replace(/\>/g,"&gt;");
