@@ -1224,12 +1224,52 @@ var CommandsDataSet = [
 	],
 	[
 		"1",
+		"Deckhand",
+		"clearinventory",
+		"ci",
+		"Clears your inventory",
+		"Utilities",
+		"/<command>",
+		"Creative"
+	],
+	[
+		"1",
 		"Lieutenant",
 		"z",
 		"",
-		"Use VoxelSniper on Creative",
+		"VoxelSniper Voxel command (Remapped from /v as thats vanish for staff)",
 		"Utilities",
 		"/<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"d",
+		"",
+		"VoxelSniper Resets Vox",
+		"Utilities",
+		"/<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"vs",
+		"",
+		"VoxelSniper Settings, Lists brushes & return Performer options.",
+		"Utilities",
+		"/<command> [brushes|brusheslong|perf|perflong]",
+		"Creative"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"b",
+		"",
+		"The brush command is the gateway to the  VoxelSniper box of world-editing wonders.",
+		"Utilities",
+		"/<command> [instructions]",
 		"Creative"
 	],
 ];
