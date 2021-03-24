@@ -15,6 +15,46 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"server",
+		"servers",
+		"List all PirateCraft servers, click to move between servers",
+		"Chat",
+		"/<command> [play|creative|test]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"games",
+		"server play",
+		"Alias for server play",
+		"Chat",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"play",
+		"server play",
+		"Alias for server play",
+		"Chat",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"creative",
+		"server play",
+		"Alias for server creative",
+		"Chat",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"list",
 		"elist, online, eonline, playerlist, eplayerlist, plist, eplist, who, ewho",
 		"List all online players.",
@@ -108,7 +148,17 @@ var CommandsDataSet = [
 		"warp",
 		"warps",
 		"List all warps or warp to the specified location.",
-		"Chat",
+		"Warps, Teleport",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"tuts",
+		"warp tutorials",
+		"Alias for /warp tutorials",
+		"Warps, Teleport",
 		"/<command>",
 		"Survival"
 	],
@@ -195,6 +245,16 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"crewmap",
+		"clanmap",
+		"Crew Leader - Set Crew home location on the live map",
+		"Crews, Map",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"crewscore",
 		"",
 		"Your PirateCraft Crew score",
@@ -246,7 +306,7 @@ var CommandsDataSet = [
 		"1",
 		"Deckhand",
 		"motd",
-		"news, updates",
+		"news, updates, welcome, changelog",
 		"Views the Message Of The Day, latest blog posts, changelogs & competitions",
 		"Chat",
 		"/<command> [chapter] [page]",
@@ -575,6 +635,216 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"index",
+		"guide index",
+		"Index for server guides",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"ranks",
+		"guide ranks",
+		"Information guide on Ranks & how to rank up",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"claims",
+		"guide claims",
+		"Information guide on Claims and how to get claim blocks",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"faq",
+		"guide faq",
+		"Frequently asked Questions",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"briges",
+		"guide briges",
+		"How to build and use Bridges",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"gates",
+		"guide gates",
+		"How to build and use Gates",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"coinage",
+		"guide coinage, economy",
+		"How to make money in the Economy",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"craftsman",
+		"guide craftsman",
+		"Information guide on craftsman rank",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"emoji",
+		"guide emoji",
+		"Information guide on emojis you can use in chat",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"emoji",
+		"guide emoji",
+		"Information guide on emojis you can use in chat",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"treasure",
+		"guide treasure",
+		"Information guide on treasure chests at warp cove",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"video",
+		"guide video, videos",
+		"Information guide on Videos about PirateCraft",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"social",
+		"guide social, follow",
+		"Information guide on Videos about PirateCraft",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"commands",
+		"guide commands",
+		"Information guide on Commmands you can use",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"moblimit",
+		"guide moblimit",
+		"Information guide on the moblimits",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"shipsigns",
+		"guide shipsigns",
+		"Information guide on what ship signs are avalible to use",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"contributor",
+		"guide contributor, contributorranks, donateranks, contribute, buy, store, purchase",
+		"Information on the Contribuor ranks and features",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"bible",
+		"guide bible",
+		"Displays the PirateCraft Codex previously called the PirateCraft Bible.",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"captain",
+		"openbook book-captain",
+		"Opens a book with information about the Captain Contributor rank",
+		"Chat, Help, Book",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"commander",
+		"openbook book-commander",
+		"Opens a book with information about the Commander Contributor rank",
+		"Chat, Help, Book",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"lieutenant",
+		"openbook book-lieutenant",
+		"Opens a book with information about the Lieutenant Contributor rank",
+		"Chat, Help, Book",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"itemdb",
 		"eitemdb",
 		"Searches for an item.",
@@ -626,7 +896,7 @@ var CommandsDataSet = [
 		"1",
 		"Deckhand",
 		"rules",
-		"",
+		"guide rules",
 		"Views the server rules.",
 		"Chat",
 		"/<command>",
@@ -648,7 +918,7 @@ var CommandsDataSet = [
 		"sethome",
 		"esethome, createhome, ecreatehome",
 		"Set home to your current location.",
-		"Chat",
+		"Homes, Teleport",
 		"/<command> [player:]<name>",
 		"Survival"
 	],
@@ -676,7 +946,7 @@ var CommandsDataSet = [
 		"1",
 		"Deckhand",
 		"ClaimsList",
-		"claimlist, listclaims",
+		"claimblocks, claimlist, listclaims",
 		"Lists information about a player's claim blocks and claims.",
 		"Claims",
 		"/<command> <player>",
@@ -756,7 +1026,7 @@ var CommandsDataSet = [
 		"1",
 		"Deckhand",
 		"SubdivideClaims",
-		"sc",
+		"sc, subclaim",
 		"Switches your shovel to subdivision mode, so you can subdivide your claims.",
 		"Claims",
 		"/<command>",
@@ -845,11 +1115,41 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"rank",
+		"rankup, ar check",
+		"Check progress in ranking up!",
+		"Ranks",
+		"/<command> [player]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"track",
+		"ar track",
+		"Track specific progress in ranking up!",
+		"Ranks",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"checkrank",
 		"",
 		"Check yours or another players ranks and time left on ranks.",
 		"Ranks",
-		"/<command> [player]",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"brb",
+		"",
+		"Says 'BRB' in chat then runs /afk",
+		"Chat",
+		"/<command>",
 		"Survival"
 	],
 	[
@@ -895,11 +1195,21 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"cruiseoff",
+		"",
+		"Stops the ship cruising",
+		"Ships",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"manoverboard",
 		"ob, over",
 		"If you fall off a ship, use this to teleport back onto the ship, it will put you in the top middle of the craft! You will have 30 seconds to use this!",
 		"Ships",
-		"/<command> [north|east|south|west]",
+		"/<command>",
 		"Survival"
 	],
 	[
@@ -1038,7 +1348,7 @@ var CommandsDataSet = [
 		"crew home",
 		"",
 		"Teleport to your crew home, this costs £15 to use!",
-		"Crews",
+		"Crews, Homes, Teleport",
 		"/<command> home",
 		"Survival"
 	],
@@ -1048,7 +1358,7 @@ var CommandsDataSet = [
 		"crew home clear",
 		"",
 		"Crew Leader - Clears your Crews sethome",
-		"Crews",
+		"Crews, Homes, Teleport",
 		"/<command> home clear",
 		"Survival"
 	],
@@ -1058,7 +1368,7 @@ var CommandsDataSet = [
 		"crew home set",
 		"",
 		"Crew Leader - Sets your crews home teleport location, costs £500",
-		"Crews",
+		"Crews, Homes, Teleport",
 		"/<command> home set",
 		"Survival"
 	],
@@ -1270,6 +1580,56 @@ var CommandsDataSet = [
 		"The brush command is the gateway to the  VoxelSniper box of world-editing wonders.",
 		"Utilities",
 		"/<command> [instructions]",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"gamemode",
+		"",
+		"Set your gamemode to survival or creative to test Survival mechaincs on creative.",
+		"Utilities",
+		"/<command> [survival|creative]",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"pos1",
+		"",
+		"WorldEdit, select first position",
+		"Utilities, WorldEdit",
+		"//<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"pos2",
+		"",
+		"WorldEdit, select second position",
+		"Utilities, WorldEdit",
+		"//<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"distr",
+		"",
+		"WorldEdit, show the distibution of blocks from your selection",
+		"Utilities, WorldEdit",
+		"//<command>",
+		"Creative"
+	],
+	[
+		"1",
+		"Deckhand",
+		"sea",
+		"ocean",
+		"Teleports to /warp ocean",
+		"Warps, Teleport",
+		"/<command>",
 		"Creative"
 	],
 ];
