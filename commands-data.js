@@ -1669,8 +1669,128 @@ var CommandsDataSet = [
 		"",
 		"Manage Crew bank balances by depositing money. Crew leaders can toggle the crew bank and withdraw.",
 		"Crews",
-		"/<command> bank [deposit|balance|withdraw] [value]",
+		"/<command> bank [status|balance|withdraw|withdraw all|deposit|deposit all] [value]",
 		"Survival"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"glow",
+		"",
+		"Toggle a glow around yourself!",
+		"Cosmetic, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"tptoggle",
+		"",
+		"Toggle if peolpe can send teleport requests to you",
+		"Cosmetic, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"time",
+		"",
+		"Shows the server world times",
+		"Chat, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"warp vip",
+		"",
+		"Access the private VIP Warp city",
+		"Teleport, Contributor",
+		"/<command> vip",
+		"Survival"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"hat",
+		"",
+		"Wear a custom hat by placing the item you are holding on your head!",
+		"Cosmetic, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"togglepm",
+		"",
+		"Toggle if people are able to send you private messages",
+		"Chat, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"near",
+		"",
+		"See who is near to your proximity with their crew!",
+		"Chat, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"workbench",
+		"craft, ecraft, wb, ewb, wbench, ewbench, eworkbench",
+		"Opens up a workbench.",
+		"Inventory, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"gb",
+		"",
+		"Tools to quickly terraform! <a href='https://www.youtube.com/watch?v=ns_E_Nly-VU'>Watch GoBrush Tutorial</a>",
+		"Utilities, Contributor",
+		"/<command> [info|toggle|size|intensity|brush]",
+		"Creative"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"gp",
+		"",
+		"Tools to quickly paint! <a href='https://www.youtube.com/watch?v=RUp0mX50FIU'>Watch GoPaint Tutorial</a>",
+		"Utilities, Contributor",
+		"/<command> [info|toggle|size]",
+		"Creative"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"speed",
+		"flyspeed, eflyspeed, fspeed, efspeed, espeed, walkspeed, ewalkspeed, wspeed, ewspeed",
+		"Change your walk or fly speed.",
+		"Utilities, Contributor",
+		"/<command> [info|toggle|size]",
+		"Creative"
+	],
+	[
+		"1",
+		"Lieutenant",
+		"mirror",
+		"",
+		"GUI tool for mirror building mode",
+		"Utilities, Contributor",
+		"/<command> [start|stop]",
+		"Creative"
 	],
 	[
 		"1",
