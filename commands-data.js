@@ -1318,7 +1318,7 @@ var CommandsDataSet = [
 		"travel",
 		"play, go, piratecraft",
 		"Opens the server travel menu",
-		"Claims",
+		"Menu, Help",
 		"/<command>",
 		"Survival"
 	],
@@ -1328,7 +1328,7 @@ var CommandsDataSet = [
 		"shops",
 		"pirateshops, shop, market, markets, marketplace",
 		"Opens GUI menu for all Pirate Markets",
-		"Claims",
+		"Economy, Menu",
 		"/<command>",
 		"Survival"
 	],
@@ -1338,8 +1338,48 @@ var CommandsDataSet = [
 		"pirate",
 		"",
 		"Opens GUI for shortcuts to a player",
-		"Claims",
+		"Menu, Help",
 		"/<command> <player>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"discord",
+		"",
+		"Opens link to our Discord server & lets you link your account",
+		"Social, Help",
+		"/<command> [link|help|linked]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"lottery",
+		"lotto",
+		"Enter the Lottery!",
+		"Economoy",
+		"/<command> [buy|help|winners]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"wiki",
+		"",
+		"View a PirateCraft wiki.piratemc.com article in-game in a book!",
+		"Guides",
+		"/<command> [article]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"getresourcepack",
+		"",
+		"Opens up a GUI for setting the PirateCraft resource pack",
+		"Resource Pack, Menu",
+		"/<command> [link|help|linked]",
 		"Survival"
 	],
 	[
@@ -1460,6 +1500,46 @@ var CommandsDataSet = [
 		"Shops - Manage shops at /warp shop",
 		"Shops, Economy",
 		"/<command> [help|rent|unrent|info|me|tp|settp|find|addfriend|delfriend] [region]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"tag",
+		"",
+		"Show time left until out of combat",
+		"PvP",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"newbie",
+		"nt, newbietime",
+		"Check time left as a newbie or force disable newbie",
+		"PvP",
+		"/<command> disable",
+		"Survival"
+	],
+	[
+		"1",
+		"Boatswain",
+		"rec",
+		"recount",
+		"shows the recounted data for the last 30 seconds! See how much damage you took in the last 30 seconds and from what!",
+		"PvP, PvE",
+		"/<command> [taken]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"sb",
+		"structurebox ",
+		"Undo placing a ship-in-a-bottle",
+		"Ships",
+		"/<command> undo",
 		"Survival"
 	],
 	[
@@ -1730,6 +1810,16 @@ var CommandsDataSet = [
 		"Manage Crew bank balances by depositing money. Crew leaders can toggle the crew bank and withdraw.",
 		"Crews",
 		"/<command> bank [status|balance|withdraw|withdraw all|deposit|deposit all] [value]",
+		"Survival"
+	],
+	[
+		"1",
+		"Contributor",
+		"parrots",
+		"",
+		"Opens the Parrots GUI menu",
+		"Cosmetic, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
+		"/<command>",
 		"Survival"
 	],
 	[
