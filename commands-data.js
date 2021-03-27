@@ -1305,6 +1305,46 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"nameclaim",
+		"claimname",
+		"Lets you name your claims in claimslist",
+		"Claims",
+		"/<command> <name>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"travel",
+		"play, go, piratecraft",
+		"Opens the server travel menu",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"shops",
+		"pirateshops, shop, market, markets, marketplace",
+		"Opens GUI menu for all Pirate Markets",
+		"Claims",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"pirate",
+		"",
+		"Opens GUI for shortcuts to a player",
+		"Claims",
+		"/<command> <player>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"bounty",
 		"",
 		"Place, Accept and list bounties on players",
@@ -1415,6 +1455,16 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"as",
+		"",
+		"Shops - Manage shops at /warp shop",
+		"Shops, Economy",
+		"/<command> [help|rent|unrent|info|me|tp|settp|find|addfriend|delfriend] [region]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"crew",
 		"",
 		"Will open a GUI to manage your crew! Has many parameters to quickly get to sections!",
@@ -1460,6 +1510,16 @@ var CommandsDataSet = [
 		"Crew Leader - Change the Crew banner to the one in your hand!",
 		"Crews",
 		"/<command> setbanner",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"donate",
+		"",
+		"Open the Store for Contributor ranks, Claim blocks, In-game money etc",
+		"Store",
+		"/<command>",
 		"Survival"
 	],
 	[
