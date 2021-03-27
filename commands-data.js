@@ -1468,7 +1468,7 @@ var CommandsDataSet = [
 		"crew modtag",
 		"",
 		"Crew Leader - Changes the Crews tag (Only Color and Case)",
-		"Crews, Contributor",
+		"Crews, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command> modtag [tag]",
 		"Survival"
 	],
@@ -1678,7 +1678,7 @@ var CommandsDataSet = [
 		"glow",
 		"",
 		"Toggle a glow around yourself!",
-		"Cosmetic, Contributor",
+		"Cosmetic, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1688,7 +1688,7 @@ var CommandsDataSet = [
 		"tptoggle",
 		"",
 		"Toggle if peolpe can send teleport requests to you",
-		"Cosmetic, Contributor",
+		"Cosmetic, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1698,7 +1698,7 @@ var CommandsDataSet = [
 		"time",
 		"",
 		"Shows the server world times",
-		"Chat, Contributor",
+		"Chat, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1708,7 +1708,7 @@ var CommandsDataSet = [
 		"warp vip",
 		"",
 		"Access the private VIP Warp city",
-		"Teleport, Contributor",
+		"Teleport, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command> vip",
 		"Survival"
 	],
@@ -1718,7 +1718,7 @@ var CommandsDataSet = [
 		"hat",
 		"",
 		"Wear a custom hat by placing the item you are holding on your head!",
-		"Cosmetic, Contributor",
+		"Cosmetic, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1728,7 +1728,7 @@ var CommandsDataSet = [
 		"togglepm",
 		"",
 		"Toggle if people are able to send you private messages",
-		"Chat, Contributor",
+		"Chat, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1738,7 +1738,7 @@ var CommandsDataSet = [
 		"near",
 		"",
 		"See who is near to your proximity with their crew!",
-		"Chat, Contributor",
+		"Chat, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1748,7 +1748,7 @@ var CommandsDataSet = [
 		"workbench",
 		"craft, ecraft, wb, ewb, wbench, ewbench, eworkbench",
 		"Opens up a workbench.",
-		"Inventory, Contributor",
+		"Inventory, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1758,7 +1758,7 @@ var CommandsDataSet = [
 		"gb",
 		"",
 		"Tools to quickly terraform! <a href='https://www.youtube.com/watch?v=ns_E_Nly-VU'>Watch GoBrush Tutorial</a>",
-		"Utilities, Contributor",
+		"Utilities, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command> [info|toggle|size|intensity|brush]",
 		"Creative"
 	],
@@ -1768,7 +1768,7 @@ var CommandsDataSet = [
 		"gp",
 		"",
 		"Tools to quickly paint! <a href='https://www.youtube.com/watch?v=RUp0mX50FIU'>Watch GoPaint Tutorial</a>",
-		"Utilities, Contributor",
+		"Utilities, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command> [info|toggle|size]",
 		"Creative"
 	],
@@ -1778,7 +1778,7 @@ var CommandsDataSet = [
 		"speed",
 		"flyspeed, eflyspeed, fspeed, efspeed, espeed, walkspeed, ewalkspeed, wspeed, ewspeed",
 		"Change your walk or fly speed.",
-		"Utilities, Contributor",
+		"Utilities, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command> [info|toggle|size]",
 		"Creative"
 	],
@@ -1788,7 +1788,7 @@ var CommandsDataSet = [
 		"mirror",
 		"",
 		"GUI tool for mirror building mode",
-		"Utilities, Contributor",
+		"Utilities, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command> [start|stop]",
 		"Creative"
 	],
@@ -1798,7 +1798,7 @@ var CommandsDataSet = [
 		"top",
 		"",
 		"Teleport to the highest block at your current position to quickly escape caves!",
-		"Utilities, Teleport, Contributor",
+		"Utilities, Teleport, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1808,7 +1808,7 @@ var CommandsDataSet = [
 		"autosort",
 		"",
 		"Toggles automatically sorting your inventory and chests",
-		"Utilities, Contributor",
+		"Utilities, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command> [chests|inventory]",
 		"Survival"
 	],
@@ -1818,7 +1818,7 @@ var CommandsDataSet = [
 		"DepositAll",
 		"",
 		"Instantly dump all your loot into all the right chests.",
-		"Utilities, Contributor",
+		"Utilities, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1828,7 +1828,7 @@ var CommandsDataSet = [
 		"back",
 		"",
 		"Teleports you to your location prior to tp/spawn unless you were killed in PvP.",
-		"Utilities, Teleport, Contributor",
+		"Utilities, Teleport, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1838,7 +1838,7 @@ var CommandsDataSet = [
 		"condense",
 		"econdense, compact, ecompact, blocks, eblocks, toblocks, etoblocks",
 		"Condenses items into a more compact blocks.",
-		"Utilities, Contributor",
+		"Utilities, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command> [<itemname>|<id>|hand|inventory]",
 		"Survival"
 	],
@@ -1848,7 +1848,7 @@ var CommandsDataSet = [
 		"disposal",
 		"edisposal, trash, etrash",
 		"Opens a portable disposal menu.",
-		"Utilities, Contributor",
+		"Utilities, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Survival"
 	],
@@ -1858,7 +1858,7 @@ var CommandsDataSet = [
 		"heads",
 		"",
 		"Opens GUI with over 250,000 custom head designs to use",
-		"Utilities, Contributor",
+		"Utilities, <a href='/donate'><span class='badge badge-success'>Contributor</span></a>",
 		"/<command>",
 		"Creative"
 	],
