@@ -1468,7 +1468,7 @@ var CommandsDataSet = [
 		"crew modtag",
 		"",
 		"Crew Leader - Changes the Crews tag (Only Color and Case)",
-		"Crews",
+		"Crews, Contributor",
 		"/<command> modtag [tag]",
 		"Survival"
 	],
@@ -1790,6 +1790,76 @@ var CommandsDataSet = [
 		"GUI tool for mirror building mode",
 		"Utilities, Contributor",
 		"/<command> [start|stop]",
+		"Creative"
+	],
+	[
+		"1",
+		"Commander",
+		"top",
+		"",
+		"Teleport to the highest block at your current position to quickly escape caves!",
+		"Utilities, Teleport, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Commander",
+		"autosort",
+		"",
+		"Toggles automatically sorting your inventory and chests",
+		"Utilities, Contributor",
+		"/<command> [chests|inventory]",
+		"Survival"
+	],
+	[
+		"1",
+		"Captain",
+		"DepositAll",
+		"",
+		"Instantly dump all your loot into all the right chests.",
+		"Utilities, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Captain",
+		"back",
+		"",
+		"Teleports you to your location prior to tp/spawn unless you were killed in PvP.",
+		"Utilities, Teleport, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Captain",
+		"condense",
+		"econdense, compact, ecompact, blocks, eblocks, toblocks, etoblocks",
+		"Condenses items into a more compact blocks.",
+		"Utilities, Contributor",
+		"/<command> [<itemname>|<id>|hand|inventory]",
+		"Survival"
+	],
+	[
+		"1",
+		"Captain",
+		"disposal",
+		"edisposal, trash, etrash",
+		"Opens a portable disposal menu.",
+		"Utilities, Contributor",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Captain",
+		"heads",
+		"",
+		"Opens GUI with over 250,000 custom head designs to use",
+		"Utilities, Contributor",
+		"/<command>",
 		"Creative"
 	],
 	[
