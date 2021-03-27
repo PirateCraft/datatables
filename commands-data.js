@@ -65,10 +65,20 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"tpahere",
+		"",
+		"Request someone teleport to you.",
+		"teleport",
+		"/<command> [otherplayer]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"tpaccept",
 		"tpyes",
 		"Accepts a teleport request.",
-		"Chat",
+		"teleport",
 		"/<command> [otherplayer]",
 		"Survival"
 	],
@@ -78,7 +88,7 @@ var CommandsDataSet = [
 		"tpdeny",
 		"tpno",
 		"Reject a teleport request.",
-		"Chat",
+		"teleport",
 		"/<command>",
 		"Survival"
 	],
@@ -90,6 +100,16 @@ var CommandsDataSet = [
 		"Testing the new stats system that reads from your ESC > Statistics data",
 		"Chat, Stats",
 		"/<command> [otherplayer]",
+		"Survival"
+	],
+	[
+		"1",
+		"carpenter",
+		"me",
+		"",
+		"Describe an action in the context of a player",
+		"Chat",
+		"/<command> [message]",
 		"Survival"
 	],
 	[
@@ -138,6 +158,16 @@ var CommandsDataSet = [
 		"servertime",
 		"",
 		"Shows server real time in GMT",
+		"Chat",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Boatswain",
+		"distance",
+		"",
+		"Shows how far a block is away from you",
 		"Chat",
 		"/<command>",
 		"Survival"
@@ -444,7 +474,7 @@ var CommandsDataSet = [
 	],
 	[
 		"1",
-		"Deckhand",
+		"Sailor",
 		"ChangePowerBlockLoc",
 		"",
 		"Allows you to change the location of the powerblock of a given door.",
@@ -626,18 +656,8 @@ var CommandsDataSet = [
 		"1",
 		"Deckhand",
 		"guides",
-		"info",
+		"info, index",
 		"List all the PirateCraft guides and information",
-		"Chat, Help",
-		"/<command>",
-		"Survival"
-	],
-	[
-		"1",
-		"Deckhand",
-		"index",
-		"guide index",
-		"Index for server guides",
 		"Chat, Help",
 		"/<command>",
 		"Survival"
@@ -696,8 +716,188 @@ var CommandsDataSet = [
 		"1",
 		"Deckhand",
 		"coinage",
-		"guide coinage, economy",
+		"guide coinage, economy, sell",
 		"How to make money in the Economy",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"howtoplay",
+		"guide howtoplay, gettingstarted",
+		"Getting started on PirateCraft",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"staff",
+		"guide staff",
+		"List all staff, old and new.",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"ships",
+		"guide ships, ship",
+		"How to sail and use ships on PirateCraft",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"shopinfo",
+		"guide shop, shopsinfo",
+		"How to create a shop",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"map",
+		"guide map",
+		"Open link to the live map",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"wikilink",
+		"guide wiki",
+		"Open link to the Wiki",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"resourcepack",
+		"guide textures, textures",
+		"How to get and use the PirateCraft Resource pack",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"botm",
+		"guide botm",
+		"About Build of the Month",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"brewing",
+		"guide brewing",
+		"About PirateCraft Brewing",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"request",
+		"guide request",
+		"Claim Removals, Regeneration, Applications",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"report",
+		"guide report",
+		"Report a player",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"forums",
+		"guide forums",
+		"Links to important forum threads",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"cove",
+		"guide cove",
+		"Information about The Cove",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"crews",
+		"guide crews",
+		"Information how to setup a crew",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"whatscrewscore",
+		"guide crewscore",
+		"Information about how crew score is caculated",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"sorting",
+		"guide sorting",
+		"What is Auto-sorting and how does it work",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"xpboost",
+		"guide xpboost",
+		"Learn how the XPBoost works",
+		"Chat, Help",
+		"/<command>",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
+		"website",
+		"guide website, web",
+		"Link to the piratemc.com website",
 		"Chat, Help",
 		"/<command>",
 		"Survival"
@@ -1434,7 +1634,7 @@ var CommandsDataSet = [
 	],
 	[
 		"1",
-		"Sailor",
+		"Carpenter",
 		"crew rank permissions",
 		"",
 		"Crew Leader - Lists all permissions avalible & Lists a rank permissions",
@@ -1464,12 +1664,32 @@ var CommandsDataSet = [
 	],
 	[
 		"1",
+		"Sailor",
+		"crew bank",
+		"",
+		"Manage Crew bank balances by depositing money. Crew leaders can toggle the crew bank and withdraw.",
+		"Crews",
+		"/<command> bank [deposit|balance|withdraw] [value]",
+		"Survival"
+	],
+	[
+		"1",
 		"Deckhand",
-		"plots",
+		"plot",
 		"",
 		"Manage your plots on the Creative server",
 		"Claims",
 		"/<command> [help|claim|auto|delete]",
+		"Creative"
+	],
+	[
+		"1",
+		"Sailor",
+		"plot flag",
+		"",
+		"Hide your plot on the Creative server",
+		"Claims",
+		"/<command> flag set hide [true/false]",
 		"Creative"
 	],
 	[
