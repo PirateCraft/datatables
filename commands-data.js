@@ -145,6 +145,16 @@ var CommandsDataSet = [
 	[
 		"1",
 		"Deckhand",
+		"mailignore",
+		"",
+		"Blocks people being able to send you mail, or everyone!",
+		"Chat, Mail",
+		"/<command> [playerName|uuid|all]",
+		"Survival"
+	],
+	[
+		"1",
+		"Deckhand",
 		"ping",
 		"",
 		"Shows your ping to the server",
